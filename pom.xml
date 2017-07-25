@@ -294,9 +294,9 @@ END;
                      <goal>exec</goal>
                   </goals>
                   <configuration>
-                     <executable>/u01/app/oracle/product/12.1.0/client_1/bin/sqlplus</executable>
+                     <executable>/home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus</executable>
                      <environmentVariables>
-                        <ORACLE_HOME>/u01/app/oracle/product/12.1.0/client_1/</ORACLE_HOME>
+                        <ORACLE_HOME>/home/oracle/u02/app/oracle/product/fmw12cr3/</ORACLE_HOME>
                         <PATH>$PATH:$ORACLE_HOME/bin:$JAVA_HOME/bin</PATH>
                         <LD_LIBRARY_PATH>$LD_LIBRARY_PATH:$ORACLE_HOME/lib</LD_LIBRARY_PATH>
                         <PATH>$PATH:$ORACLE_HOME/bin</PATH>
