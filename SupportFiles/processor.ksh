@@ -18,7 +18,7 @@ then
 fi
 
 # Convert files page to PDF
-/usr/local/bin/wkhtmltopdf --disable-external-links ndocs/Output/files/dz_${1}_deploy-sql.html dz_${1}_deploy.pdf
+/bin/wkhtmltopdf --disable-external-links ndocs/Output/files/dz_${1}_deploy-sql.html dz_${1}_deploy.pdf
 ret=$?
 if ! test "$ret" -eq 0
 then
